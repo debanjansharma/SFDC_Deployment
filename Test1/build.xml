@@ -33,31 +33,6 @@
 					 serverurl="${sf.serverurl}"
 					 deployroot="Src">
 	      </sf:deploy>
-			 <echo message="Changes found for ${gt.commitMessage}" />
-					<git command="add" dir="${Sandbox1.gitDirectory}">
-						<args>
-							<arg value="." />
-						</args>
-					</git>
-					<git command="commit" dir="${Sandbox1.gitDirectory}">
-						<args>
-							<arg value="-am ${gt.commitMessage}" />
-						</args>
-					</git>
-			<macrodef name="git">
-					<attribute name="command" />
-					<attribute name="dir" />
-					<element name="args" optional="true" />
-					<sequential>
-			            <echo message="Executing Command in folder @{dir}" />
-			            <echo message="git @{command}" />
-						<exec executable="git" dir="@{dir}">
-							<arg value="@{command}" />
-							<args/>
-						</exec>
-					</sequential>
-				</macrodef>
-			
 	    </target> 
    
 </project>
