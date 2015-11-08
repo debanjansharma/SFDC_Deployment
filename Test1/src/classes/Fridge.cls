@@ -3,7 +3,7 @@ public String modelNumber;
 public Integer numberInStock;
 
 //Declaring Constructor
-
+//Code added to check deployment
 public Fridge(String modelNumberPara,Integer numberInStockPara){
 modelNumber=modelNumberPara;
 numberInStock=numberInStockPara;
