@@ -28,8 +28,8 @@
 
 		<!-- Sequence 3 - Deploy to Target System, Package.xml is present in Src folder -->
 		<target name="deploy">
-	      <sf:deploy username="${sf1.username}"
-					 password="${sf1.password}"
+	      <sf:deploy username="${sf.username}"
+					 password="${sf.password}"
 					 serverurl="${sf.serverurl}"
 					 deployroot="Src">
 	      </sf:deploy>
