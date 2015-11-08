@@ -8,7 +8,7 @@
          will be treated literally.
     -->
     <condition property="sf.username" value="debanjansharma05@gmail.com"> <not> <isset property="sf.username"/> </not> </condition>
-    <condition property="sf.password" value="Optimize$$1234"> <not> <isset property="sf.password"/> </not> </condition>
+    <condition property="sf.password" value="Optimize$$1234Optimize$$1234hmQiBUdkeb8n9QWx5zfku773"> <not> <isset property="sf.password"/> </not> </condition>
     <condition property="sf.sessionId" value=""> <not> <isset property="sf.sessionId"/> </not> </condition>
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
